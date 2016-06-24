@@ -10,6 +10,7 @@
 #include <GLUT/GLUT.h>
 
 #include "Metafile.hpp"
+#include "Arithmetic.h"
 
 int main(int argc, char * argv[]) {
     // insert code here...
@@ -20,8 +21,14 @@ int main(int argc, char * argv[]) {
     glutInitWindowSize(600, 450);//大小
     glutCreateWindow("显示图元");
     
-    gluOrtho2D(0, 200, 0, 100);
+    gluOrtho2D(0, 200, 0, 150);
+    
+//    lineBres(0, 0, 100, 90);
+    ScreenPt pt = ScreenPt();
+    
+    //只调用最后一次的
     glutDisplayFunc(drawLine);
+    glutDisplayFunc(drawPolyline);
     glutMainLoop();
     
     return 0;

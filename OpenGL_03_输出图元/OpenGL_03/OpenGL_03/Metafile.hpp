@@ -11,14 +11,15 @@
 
 /// opengl 图元
 #include <stdio.h>
+//#include <OpenGL/OpenGL.h>
 
 //画直线
 void drawLine(void);
 //画折线
+void drawPolyline(void);
 
 
-
-class Metafile {
+class MetaTest {
 
 typedef void (*Func)(void);
 public:

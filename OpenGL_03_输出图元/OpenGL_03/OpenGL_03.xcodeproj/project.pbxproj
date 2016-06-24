@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB129CBE1D1BC754008F3489 /* Metafile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB129CBC1D1BC754008F3489 /* Metafile.cpp */; };
+		BB129CC21D1CF0EE008F3489 /* Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB129CC01D1CF0EE008F3489 /* Arithmetic.cpp */; };
 		BB13E62A1D1B8DF90071178C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB13E6291D1B8DF90071178C /* main.cpp */; };
 		BB13E6321D1B8E360071178C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13E6311D1B8E360071178C /* OpenGL.framework */; };
 		BB13E6341D1B8E400071178C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13E6331D1B8E400071178C /* GLUT.framework */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		BB129CBC1D1BC754008F3489 /* Metafile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Metafile.cpp; sourceTree = "<group>"; };
 		BB129CBD1D1BC754008F3489 /* Metafile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Metafile.hpp; sourceTree = "<group>"; };
+		BB129CC01D1CF0EE008F3489 /* Arithmetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arithmetic.cpp; sourceTree = "<group>"; };
+		BB129CC11D1CF0EE008F3489 /* Arithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arithmetic.h; sourceTree = "<group>"; };
 		BB13E6261D1B8DF90071178C /* OpenGL_03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL_03; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB13E6291D1B8DF90071178C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BB13E6311D1B8E360071178C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -70,6 +73,8 @@
 				BB13E6291D1B8DF90071178C /* main.cpp */,
 				BB129CBC1D1BC754008F3489 /* Metafile.cpp */,
 				BB129CBD1D1BC754008F3489 /* Metafile.hpp */,
+				BB129CC01D1CF0EE008F3489 /* Arithmetic.cpp */,
+				BB129CC11D1CF0EE008F3489 /* Arithmetic.h */,
 			);
 			path = OpenGL_03;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB129CC21D1CF0EE008F3489 /* Arithmetic.cpp in Sources */,
 				BB129CBE1D1BC754008F3489 /* Metafile.cpp in Sources */,
 				BB13E62A1D1B8DF90071178C /* main.cpp in Sources */,
 			);
