@@ -11,7 +11,6 @@
 
 /// opengl 图元
 #include <stdio.h>
-//#include <OpenGL/OpenGL.h>
 
 //画直线
 void drawLine(void);

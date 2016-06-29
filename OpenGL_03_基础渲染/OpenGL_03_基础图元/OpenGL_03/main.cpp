@@ -24,7 +24,9 @@ int main(int argc, char * argv[]) {
     gluOrtho2D(0, 200, 0, 150);
     
 //    lineBres(0, 0, 100, 90);
-    ScreenPt pt = ScreenPt();
+//    ScreenPt pt = ScreenPt();
+//    MetaTest mt = MetaTest();
+    
     
     //只调用最后一次的
     glutDisplayFunc(drawLine);
