@@ -9,8 +9,6 @@
 #ifndef Square_hpp
 #define Square_hpp
 
-#include <stdio.h>
-
 #include <GLTools.h>	// OpenGL toolkit
 #include <GLShaderManager.h>
 

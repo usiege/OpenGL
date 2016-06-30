@@ -22,6 +22,7 @@ void drawLine(void){
     int point2[] = {200,150};
     int point3[] = {0,200};
     
+    
     glBegin(GL_LINES);
     glVertex2iv(point1);
     glVertex2iv(point2);

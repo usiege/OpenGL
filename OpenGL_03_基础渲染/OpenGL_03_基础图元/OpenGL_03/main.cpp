@@ -12,6 +12,11 @@
 #include "Metafile.hpp"
 #include "Arithmetic.h"
 
+/**
+ *  @brief 本例子是《计算机图形学》第三章的示例程序
+    由于在学习过程中，将学习重心放在了OpenGL蓝皮书上
+    所以除本例均是与蓝皮书相关的，望读者注意；
+ */
 int main(int argc, char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
