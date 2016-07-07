@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB16A4EF1D2E2E9C009710F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A4EE1D2E2E9C009710F8 /* main.cpp */; };
+		BB16A4F41D2E2EAD009710F8 /* GeoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */; };
+		BB16A4F61D2E30A3009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1B1D2501C600E89BAA /* libGLTools.a */; };
+		BB16A4F71D2E30A9009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1F1D25031C00E89BAA /* GLUT.framework */; };
+		BB16A4F81D2E30AD009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1D1D25031600E89BAA /* OpenGL.framework */; };
+		BB16A5041D2E4205009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1F1D25031C00E89BAA /* GLUT.framework */; };
+		BB16A5051D2E4207009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1D1D25031600E89BAA /* OpenGL.framework */; };
+		BB16A5061D2E420A009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1B1D2501C600E89BAA /* libGLTools.a */; };
+		BB16A5081D2E4237009710F8 /* Scissor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A5071D2E4237009710F8 /* Scissor.cpp */; };
+		BB16A5141D2E45ED009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1F1D25031C00E89BAA /* GLUT.framework */; };
+		BB16A5151D2E45EF009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1D1D25031600E89BAA /* OpenGL.framework */; };
+		BB16A5161D2E45F2009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1B1D2501C600E89BAA /* libGLTools.a */; };
+		BB16A5181D2E460C009710F8 /* Blending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A5171D2E460C009710F8 /* Blending.cpp */; };
 		BBFD1EF81D24FF4600E89BAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFD1EF71D24FF4600E89BAA /* main.cpp */; };
 		BBFD1F1C1D2501C600E89BAA /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1B1D2501C600E89BAA /* libGLTools.a */; };
 		BBFD1F311D25068900E89BAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFD1F301D25068900E89BAA /* main.cpp */; };
@@ -17,6 +30,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BB16A4EA1D2E2E9C009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB16A4FB1D2E41FE009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB16A50B1D2E45E7009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BBFD1EF21D24FF4600E89BAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,6 +78,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB16A4EC1D2E2E9C009710F8 /* GeoTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A4EE1D2E2E9C009710F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTest.cpp; path = ../../../../../Documents/Books/OpenGL/OpenGL_E/Src/Chapter03/GeoTest/GeoTest.cpp; sourceTree = "<group>"; };
+		BB16A4F51D2E3033009710F8 /* GeoTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoTest.h; sourceTree = "<group>"; };
+		BB16A4FD1D2E41FE009710F8 /* Scissor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scissor; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A5071D2E4237009710F8 /* Scissor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scissor.cpp; sourceTree = "<group>"; };
+		BB16A50D1D2E45E7009710F8 /* Blending */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blending; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A5171D2E460C009710F8 /* Blending.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blending.cpp; sourceTree = "<group>"; };
 		BBFD1EF41D24FF4600E89BAA /* OGL_03_BaseRender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OGL_03_BaseRender; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFD1EF71D24FF4600E89BAA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BBFD1F0D1D2501C600E89BAA /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
@@ -64,6 +112,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB16A4E91D2E2E9C009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A4F71D2E30A9009710F8 /* GLUT.framework in Frameworks */,
+				BB16A4F61D2E30A3009710F8 /* libGLTools.a in Frameworks */,
+				BB16A4F81D2E30AD009710F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A4FA1D2E41FE009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5061D2E420A009710F8 /* libGLTools.a in Frameworks */,
+				BB16A5041D2E4205009710F8 /* GLUT.framework in Frameworks */,
+				BB16A5051D2E4207009710F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A50A1D2E45E7009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5141D2E45ED009710F8 /* GLUT.framework in Frameworks */,
+				BB16A5151D2E45EF009710F8 /* OpenGL.framework in Frameworks */,
+				BB16A5161D2E45F2009710F8 /* libGLTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBFD1EF11D24FF4600E89BAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,10 +163,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB16A4ED1D2E2E9C009710F8 /* GeoTest */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */,
+				BB16A4F51D2E3033009710F8 /* GeoTest.h */,
+				BB16A4EE1D2E2E9C009710F8 /* main.cpp */,
+			);
+			path = GeoTest;
+			sourceTree = "<group>";
+		};
+		BB16A4FE1D2E41FE009710F8 /* Scissor */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5071D2E4237009710F8 /* Scissor.cpp */,
+			);
+			path = Scissor;
+			sourceTree = "<group>";
+		};
+		BB16A50E1D2E45E7009710F8 /* Blending */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5171D2E460C009710F8 /* Blending.cpp */,
+			);
+			path = Blending;
+			sourceTree = "<group>";
+		};
 		BBFD1EEB1D24FF4600E89BAA = {
 			isa = PBXGroup;
 			children = (
 				BBFD1F2A1D25065000E89BAA /* Primitives */,
+				BB16A4ED1D2E2E9C009710F8 /* GeoTest */,
+				BB16A4FE1D2E41FE009710F8 /* Scissor */,
+				BB16A50E1D2E45E7009710F8 /* Blending */,
 				BBFD1EF61D24FF4600E89BAA /* OGL_03_BaseRender */,
 				BBFD1F091D2501A300E89BAA /* Frameworks */,
 				BBFD1EF51D24FF4600E89BAA /* Products */,
@@ -100,6 +207,9 @@
 			children = (
 				BBFD1EF41D24FF4600E89BAA /* OGL_03_BaseRender */,
 				BBFD1F291D25065000E89BAA /* Primitives */,
+				BB16A4EC1D2E2E9C009710F8 /* GeoTest */,
+				BB16A4FD1D2E41FE009710F8 /* Scissor */,
+				BB16A50D1D2E45E7009710F8 /* Blending */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +283,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BB16A4EB1D2E2E9C009710F8 /* GeoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A4F21D2E2E9C009710F8 /* Build configuration list for PBXNativeTarget "GeoTest" */;
+			buildPhases = (
+				BB16A4E81D2E2E9C009710F8 /* Sources */,
+				BB16A4E91D2E2E9C009710F8 /* Frameworks */,
+				BB16A4EA1D2E2E9C009710F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTest;
+			productName = GeoTest;
+			productReference = BB16A4EC1D2E2E9C009710F8 /* GeoTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB16A4FC1D2E41FE009710F8 /* Scissor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A5011D2E41FE009710F8 /* Build configuration list for PBXNativeTarget "Scissor" */;
+			buildPhases = (
+				BB16A4F91D2E41FE009710F8 /* Sources */,
+				BB16A4FA1D2E41FE009710F8 /* Frameworks */,
+				BB16A4FB1D2E41FE009710F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scissor;
+			productName = Scissor;
+			productReference = BB16A4FD1D2E41FE009710F8 /* Scissor */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB16A50C1D2E45E7009710F8 /* Blending */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A5111D2E45E7009710F8 /* Build configuration list for PBXNativeTarget "Blending" */;
+			buildPhases = (
+				BB16A5091D2E45E7009710F8 /* Sources */,
+				BB16A50A1D2E45E7009710F8 /* Frameworks */,
+				BB16A50B1D2E45E7009710F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blending;
+			productName = Blending;
+			productReference = BB16A50D1D2E45E7009710F8 /* Blending */;
+			productType = "com.apple.product-type.tool";
+		};
 		BBFD1EF31D24FF4600E89BAA /* OGL_03_BaseRender */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBFD1EFB1D24FF4600E89BAA /* Build configuration list for PBXNativeTarget "OGL_03_BaseRender" */;
@@ -216,6 +377,15 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = uwuneng;
 				TargetAttributes = {
+					BB16A4EB1D2E2E9C009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB16A4FC1D2E41FE009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB16A50C1D2E45E7009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					BBFD1EF31D24FF4600E89BAA = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -238,11 +408,39 @@
 			targets = (
 				BBFD1EF31D24FF4600E89BAA /* OGL_03_BaseRender */,
 				BBFD1F281D25065000E89BAA /* Primitives */,
+				BB16A4EB1D2E2E9C009710F8 /* GeoTest */,
+				BB16A4FC1D2E41FE009710F8 /* Scissor */,
+				BB16A50C1D2E45E7009710F8 /* Blending */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB16A4E81D2E2E9C009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A4EF1D2E2E9C009710F8 /* main.cpp in Sources */,
+				BB16A4F41D2E2EAD009710F8 /* GeoTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A4F91D2E41FE009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5081D2E4237009710F8 /* Scissor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A5091D2E45E7009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5181D2E460C009710F8 /* Blending.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBFD1EF01D24FF4600E89BAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +461,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BB16A4F01D2E2E9C009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A4F11D2E2E9C009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB16A5021D2E41FE009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A5031D2E41FE009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB16A5121D2E45E7009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A5131D2E45E7009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BBFD1EF91D24FF4600E89BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,6 +575,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-deprecated";
 			};
 			name = Debug;
 		};
@@ -343,6 +614,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-deprecated";
 			};
 			name = Release;
 		};
@@ -397,6 +669,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB16A4F21D2E2E9C009710F8 /* Build configuration list for PBXNativeTarget "GeoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A4F01D2E2E9C009710F8 /* Debug */,
+				BB16A4F11D2E2E9C009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB16A5011D2E41FE009710F8 /* Build configuration list for PBXNativeTarget "Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A5021D2E41FE009710F8 /* Debug */,
+				BB16A5031D2E41FE009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB16A5111D2E45E7009710F8 /* Build configuration list for PBXNativeTarget "Blending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A5121D2E45E7009710F8 /* Debug */,
+				BB16A5131D2E45E7009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BBFD1EEF1D24FF4600E89BAA /* Build configuration list for PBXProject "OGL_03_BaseRender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -413,6 +709,7 @@
 				BBFD1EFD1D24FF4600E89BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBFD1F2D1D25065000E89BAA /* Build configuration list for PBXNativeTarget "Primitives" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +718,7 @@
 				BBFD1F2F1D25065000E89BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

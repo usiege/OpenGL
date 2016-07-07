@@ -286,7 +286,6 @@ void SpecialKeys(int key, int x, int y)
 
 
 
-
 ///////////////////////////////////////////////////////////////////////////////
 // A normal ASCII key has been pressed.
 // In this case, advance the scene when the space bar is pressed
