@@ -34,7 +34,7 @@ void RenderScene(void)
     // Turn scissor back off for next render
     glDisable(GL_SCISSOR_TEST);
 
-glutSwapBuffers();
+    glutSwapBuffers();
 }
 
 
