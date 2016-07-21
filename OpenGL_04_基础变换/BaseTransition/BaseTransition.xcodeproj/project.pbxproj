@@ -24,6 +24,9 @@
 		BB16A5A51D377578009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A55D1D338C65009710F8 /* GLUT.framework */; };
 		BB16A5A61D37757A009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A55E1D338C65009710F8 /* OpenGL.framework */; };
 		BB16A5A81D377589009710F8 /* ModelViewProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A5A71D377589009710F8 /* ModelViewProjection.cpp */; };
+		BB1E40211D40C26B00D9297F /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5731D338DB9009710F8 /* libGLTools.a */; };
+		BB1E40221D40C26D00D9297F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A55D1D338C65009710F8 /* GLUT.framework */; };
+		BB1E40231D40C26F00D9297F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A55E1D338C65009710F8 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +112,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1E40231D40C26F00D9297F /* OpenGL.framework in Frameworks */,
+				BB1E40211D40C26B00D9297F /* libGLTools.a in Frameworks */,
+				BB1E40221D40C26D00D9297F /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +541,10 @@
 		BB16A53A1D338B30009710F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -542,6 +552,10 @@
 		BB16A53B1D338B30009710F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -649,6 +663,7 @@
 				BB16A53B1D338B30009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5441D338BEC009710F8 /* Build configuration list for PBXNativeTarget "Move" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +672,7 @@
 				BB16A5461D338BEC009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5811D377090009710F8 /* Build configuration list for PBXNativeTarget "Orthographic" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +681,7 @@
 				BB16A5831D377090009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5911D3774BD009710F8 /* Build configuration list for PBXNativeTarget "Perspective" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +690,7 @@
 				BB16A5931D3774BD009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5A11D377573009710F8 /* Build configuration list for PBXNativeTarget "ModelViewProjection" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +699,7 @@
 				BB16A5A31D377573009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

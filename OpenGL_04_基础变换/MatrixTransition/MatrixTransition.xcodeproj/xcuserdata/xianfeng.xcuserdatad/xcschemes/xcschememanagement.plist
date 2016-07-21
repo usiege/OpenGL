@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MatrixTransition.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SphereWorld.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SphereWorld2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SphereWorld3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SphereWorld4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BB16A5B91D3CC8E8009710F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB16A5DF1D3CC9E6009710F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB16A61D1D3E1394009710F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB1E40041D3F709D00D9297F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB1E40141D40BE4100D9297F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB16A5BE1D3CC8E8009710F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A5BD1D3CC8E8009710F8 /* main.cpp */; };
+		BB16A5C71D3CC968009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C51D3CC968009710F8 /* GLUT.framework */; };
+		BB16A5C81D3CC968009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C61D3CC968009710F8 /* OpenGL.framework */; };
+		BB16A5DB1D3CC98E009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5DA1D3CC98E009710F8 /* libGLTools.a */; };
+		BB16A5E71D3CC9F9009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5DA1D3CC98E009710F8 /* libGLTools.a */; };
+		BB16A5E81D3CC9FB009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C51D3CC968009710F8 /* GLUT.framework */; };
+		BB16A5E91D3CCA00009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C61D3CC968009710F8 /* OpenGL.framework */; };
+		BB16A5EB1D3CCA29009710F8 /* SphereWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A5EA1D3CCA29009710F8 /* SphereWorld.cpp */; };
+		BB16A6251D3E13A0009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5DA1D3CC98E009710F8 /* libGLTools.a */; };
+		BB16A6261D3E13A1009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C51D3CC968009710F8 /* GLUT.framework */; };
+		BB16A6271D3E13A4009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C61D3CC968009710F8 /* OpenGL.framework */; };
+		BB16A6291D3E13B5009710F8 /* SphereWorld2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A6281D3E13B5009710F8 /* SphereWorld2.cpp */; };
+		BB1E400C1D3F70A900D9297F /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5DA1D3CC98E009710F8 /* libGLTools.a */; };
+		BB1E400D1D3F70AB00D9297F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C51D3CC968009710F8 /* GLUT.framework */; };
+		BB1E400E1D3F70AD00D9297F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C61D3CC968009710F8 /* OpenGL.framework */; };
+		BB1E40101D3F70BD00D9297F /* SphereWorld3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1E400F1D3F70BD00D9297F /* SphereWorld3.cpp */; };
+		BB1E401C1D40BE4700D9297F /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5DA1D3CC98E009710F8 /* libGLTools.a */; };
+		BB1E401D1D40BE4800D9297F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C51D3CC968009710F8 /* GLUT.framework */; };
+		BB1E401E1D40BE4A00D9297F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16A5C61D3CC968009710F8 /* OpenGL.framework */; };
+		BB1E40201D40BE5700D9297F /* SphereWorld4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1E401F1D40BE5700D9297F /* SphereWorld4.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB16A5B81D3CC8E8009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB16A5DE1D3CC9E6009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB16A61C1D3E1394009710F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB1E40031D3F709D00D9297F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BB1E40131D40BE4100D9297F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB16A5BA1D3CC8E8009710F8 /* MatrixTransition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatrixTransition; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A5BD1D3CC8E8009710F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BB16A5C51D3CC968009710F8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		BB16A5C61D3CC968009710F8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BB16A5CC1D3CC98E009710F8 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		BB16A5CD1D3CC98E009710F8 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		BB16A5CE1D3CC98E009710F8 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		BB16A5CF1D3CC98E009710F8 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		BB16A5D01D3CC98E009710F8 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		BB16A5D11D3CC98E009710F8 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		BB16A5D21D3CC98E009710F8 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		BB16A5D31D3CC98E009710F8 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		BB16A5D41D3CC98E009710F8 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		BB16A5D51D3CC98E009710F8 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		BB16A5D61D3CC98E009710F8 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		BB16A5D71D3CC98E009710F8 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		BB16A5D81D3CC98E009710F8 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		BB16A5D91D3CC98E009710F8 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		BB16A5DA1D3CC98E009710F8 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		BB16A5E01D3CC9E6009710F8 /* SphereWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SphereWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A5EA1D3CCA29009710F8 /* SphereWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphereWorld.cpp; sourceTree = "<group>"; };
+		BB16A61E1D3E1394009710F8 /* SphereWorld2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SphereWorld2; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16A6281D3E13B5009710F8 /* SphereWorld2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphereWorld2.cpp; sourceTree = "<group>"; };
+		BB1E40051D3F709D00D9297F /* SphereWorld3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SphereWorld3; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1E400F1D3F70BD00D9297F /* SphereWorld3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphereWorld3.cpp; sourceTree = "<group>"; };
+		BB1E40151D40BE4100D9297F /* SphereWorld4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SphereWorld4; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1E401F1D40BE5700D9297F /* SphereWorld4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphereWorld4.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB16A5B71D3CC8E8009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5DB1D3CC98E009710F8 /* libGLTools.a in Frameworks */,
+				BB16A5C71D3CC968009710F8 /* GLUT.framework in Frameworks */,
+				BB16A5C81D3CC968009710F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A5DD1D3CC9E6009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5E71D3CC9F9009710F8 /* libGLTools.a in Frameworks */,
+				BB16A5E81D3CC9FB009710F8 /* GLUT.framework in Frameworks */,
+				BB16A5E91D3CCA00009710F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A61B1D3E1394009710F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A6251D3E13A0009710F8 /* libGLTools.a in Frameworks */,
+				BB16A6261D3E13A1009710F8 /* GLUT.framework in Frameworks */,
+				BB16A6271D3E13A4009710F8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1E40021D3F709D00D9297F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1E400D1D3F70AB00D9297F /* GLUT.framework in Frameworks */,
+				BB1E400C1D3F70A900D9297F /* libGLTools.a in Frameworks */,
+				BB1E400E1D3F70AD00D9297F /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1E40121D40BE4100D9297F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1E401C1D40BE4700D9297F /* libGLTools.a in Frameworks */,
+				BB1E401D1D40BE4800D9297F /* GLUT.framework in Frameworks */,
+				BB1E401E1D40BE4A00D9297F /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB16A5B11D3CC8E8009710F8 = {
+			isa = PBXGroup;
+			children = (
+				BB16A5E11D3CC9E6009710F8 /* SphereWorld */,
+				BB16A61F1D3E1394009710F8 /* SphereWorld2 */,
+				BB1E40061D3F709D00D9297F /* SphereWorld3 */,
+				BB1E40161D40BE4100D9297F /* SphereWorld4 */,
+				BB16A5C41D3CC94E009710F8 /* Frameworks */,
+				BB16A5BC1D3CC8E8009710F8 /* MatrixTransition */,
+				BB16A5BB1D3CC8E8009710F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB16A5BB1D3CC8E8009710F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5BA1D3CC8E8009710F8 /* MatrixTransition */,
+				BB16A5E01D3CC9E6009710F8 /* SphereWorld */,
+				BB16A61E1D3E1394009710F8 /* SphereWorld2 */,
+				BB1E40051D3F709D00D9297F /* SphereWorld3 */,
+				BB1E40151D40BE4100D9297F /* SphereWorld4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB16A5BC1D3CC8E8009710F8 /* MatrixTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5BD1D3CC8E8009710F8 /* main.cpp */,
+			);
+			path = MatrixTransition;
+			sourceTree = "<group>";
+		};
+		BB16A5C41D3CC94E009710F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5C91D3CC98E009710F8 /* GLTools */,
+				BB16A5C51D3CC968009710F8 /* GLUT.framework */,
+				BB16A5C61D3CC968009710F8 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB16A5C91D3CC98E009710F8 /* GLTools */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5CA1D3CC98E009710F8 /* include */,
+				BB16A5DA1D3CC98E009710F8 /* libGLTools.a */,
+			);
+			path = GLTools;
+			sourceTree = "<group>";
+		};
+		BB16A5CA1D3CC98E009710F8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5CB1D3CC98E009710F8 /* GL */,
+				BB16A5CF1D3CC98E009710F8 /* GLBatch.h */,
+				BB16A5D01D3CC98E009710F8 /* GLBatchBase.h */,
+				BB16A5D11D3CC98E009710F8 /* GLFrame.h */,
+				BB16A5D21D3CC98E009710F8 /* GLFrustum.h */,
+				BB16A5D31D3CC98E009710F8 /* GLGeometryTransform.h */,
+				BB16A5D41D3CC98E009710F8 /* GLMatrixStack.h */,
+				BB16A5D51D3CC98E009710F8 /* GLShaderManager.h */,
+				BB16A5D61D3CC98E009710F8 /* GLTools.h */,
+				BB16A5D71D3CC98E009710F8 /* GLTriangleBatch.h */,
+				BB16A5D81D3CC98E009710F8 /* math3d.h */,
+				BB16A5D91D3CC98E009710F8 /* StopWatch.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BB16A5CB1D3CC98E009710F8 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5CC1D3CC98E009710F8 /* glew.h */,
+				BB16A5CD1D3CC98E009710F8 /* glxew.h */,
+				BB16A5CE1D3CC98E009710F8 /* wglew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		BB16A5E11D3CC9E6009710F8 /* SphereWorld */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A5EA1D3CCA29009710F8 /* SphereWorld.cpp */,
+			);
+			path = SphereWorld;
+			sourceTree = "<group>";
+		};
+		BB16A61F1D3E1394009710F8 /* SphereWorld2 */ = {
+			isa = PBXGroup;
+			children = (
+				BB16A6281D3E13B5009710F8 /* SphereWorld2.cpp */,
+			);
+			path = SphereWorld2;
+			sourceTree = "<group>";
+		};
+		BB1E40061D3F709D00D9297F /* SphereWorld3 */ = {
+			isa = PBXGroup;
+			children = (
+				BB1E400F1D3F70BD00D9297F /* SphereWorld3.cpp */,
+			);
+			path = SphereWorld3;
+			sourceTree = "<group>";
+		};
+		BB1E40161D40BE4100D9297F /* SphereWorld4 */ = {
+			isa = PBXGroup;
+			children = (
+				BB1E401F1D40BE5700D9297F /* SphereWorld4.cpp */,
+			);
+			path = SphereWorld4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB16A5B91D3CC8E8009710F8 /* MatrixTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A5C11D3CC8E8009710F8 /* Build configuration list for PBXNativeTarget "MatrixTransition" */;
+			buildPhases = (
+				BB16A5B61D3CC8E8009710F8 /* Sources */,
+				BB16A5B71D3CC8E8009710F8 /* Frameworks */,
+				BB16A5B81D3CC8E8009710F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixTransition;
+			productName = MatrixTransition;
+			productReference = BB16A5BA1D3CC8E8009710F8 /* MatrixTransition */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB16A5DF1D3CC9E6009710F8 /* SphereWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A5E41D3CC9E6009710F8 /* Build configuration list for PBXNativeTarget "SphereWorld" */;
+			buildPhases = (
+				BB16A5DC1D3CC9E6009710F8 /* Sources */,
+				BB16A5DD1D3CC9E6009710F8 /* Frameworks */,
+				BB16A5DE1D3CC9E6009710F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereWorld;
+			productName = SphereWorld;
+			productReference = BB16A5E01D3CC9E6009710F8 /* SphereWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB16A61D1D3E1394009710F8 /* SphereWorld2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB16A6241D3E1394009710F8 /* Build configuration list for PBXNativeTarget "SphereWorld2" */;
+			buildPhases = (
+				BB16A61B1D3E1394009710F8 /* Frameworks */,
+				BB16A61C1D3E1394009710F8 /* CopyFiles */,
+				BB16A61A1D3E1394009710F8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereWorld2;
+			productName = SphereWorld2;
+			productReference = BB16A61E1D3E1394009710F8 /* SphereWorld2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB1E40041D3F709D00D9297F /* SphereWorld3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1E400B1D3F709D00D9297F /* Build configuration list for PBXNativeTarget "SphereWorld3" */;
+			buildPhases = (
+				BB1E40011D3F709D00D9297F /* Sources */,
+				BB1E40021D3F709D00D9297F /* Frameworks */,
+				BB1E40031D3F709D00D9297F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereWorld3;
+			productName = SphereWorld3;
+			productReference = BB1E40051D3F709D00D9297F /* SphereWorld3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BB1E40141D40BE4100D9297F /* SphereWorld4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1E40191D40BE4100D9297F /* Build configuration list for PBXNativeTarget "SphereWorld4" */;
+			buildPhases = (
+				BB1E40111D40BE4100D9297F /* Sources */,
+				BB1E40121D40BE4100D9297F /* Frameworks */,
+				BB1E40131D40BE4100D9297F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereWorld4;
+			productName = SphereWorld4;
+			productReference = BB1E40151D40BE4100D9297F /* SphereWorld4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB16A5B21D3CC8E8009710F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = uwuneng;
+				TargetAttributes = {
+					BB16A5B91D3CC8E8009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB16A5DF1D3CC9E6009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB16A61D1D3E1394009710F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB1E40041D3F709D00D9297F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BB1E40141D40BE4100D9297F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BB16A5B51D3CC8E8009710F8 /* Build configuration list for PBXProject "MatrixTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB16A5B11D3CC8E8009710F8;
+			productRefGroup = BB16A5BB1D3CC8E8009710F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB16A5B91D3CC8E8009710F8 /* MatrixTransition */,
+				BB16A5DF1D3CC9E6009710F8 /* SphereWorld */,
+				BB16A61D1D3E1394009710F8 /* SphereWorld2 */,
+				BB1E40041D3F709D00D9297F /* SphereWorld3 */,
+				BB1E40141D40BE4100D9297F /* SphereWorld4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB16A5B61D3CC8E8009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5BE1D3CC8E8009710F8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A5DC1D3CC9E6009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A5EB1D3CCA29009710F8 /* SphereWorld.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB16A61A1D3E1394009710F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16A6291D3E13B5009710F8 /* SphereWorld2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1E40011D3F709D00D9297F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1E40101D3F70BD00D9297F /* SphereWorld3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1E40111D40BE4100D9297F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1E40201D40BE5700D9297F /* SphereWorld4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB16A5BF1D3CC8E8009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/GLTools/include";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-deprecated";
+			};
+			name = Debug;
+		};
+		BB16A5C01D3CC8E8009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/GLTools/include";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-deprecated";
+			};
+			name = Release;
+		};
+		BB16A5C21D3CC8E8009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A5C31D3CC8E8009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB16A5E51D3CC9E6009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A5E61D3CC9E6009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB16A6221D3E1394009710F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB16A6231D3E1394009710F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB1E40091D3F709D00D9297F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB1E400A1D3F709D00D9297F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB1E401A1D40BE4100D9297F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB1E401B1D40BE4100D9297F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GLTools",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB16A5B51D3CC8E8009710F8 /* Build configuration list for PBXProject "MatrixTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A5BF1D3CC8E8009710F8 /* Debug */,
+				BB16A5C01D3CC8E8009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB16A5C11D3CC8E8009710F8 /* Build configuration list for PBXNativeTarget "MatrixTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A5C21D3CC8E8009710F8 /* Debug */,
+				BB16A5C31D3CC8E8009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB16A5E41D3CC9E6009710F8 /* Build configuration list for PBXNativeTarget "SphereWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A5E51D3CC9E6009710F8 /* Debug */,
+				BB16A5E61D3CC9E6009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB16A6241D3E1394009710F8 /* Build configuration list for PBXNativeTarget "SphereWorld2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB16A6221D3E1394009710F8 /* Debug */,
+				BB16A6231D3E1394009710F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1E400B1D3F709D00D9297F /* Build configuration list for PBXNativeTarget "SphereWorld3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1E40091D3F709D00D9297F /* Debug */,
+				BB1E400A1D3F709D00D9297F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB1E40191D40BE4100D9297F /* Build configuration list for PBXNativeTarget "SphereWorld4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1E401A1D40BE4100D9297F /* Debug */,
+				BB1E401B1D40BE4100D9297F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB16A5B21D3CC8E8009710F8 /* Project object */;
+}
