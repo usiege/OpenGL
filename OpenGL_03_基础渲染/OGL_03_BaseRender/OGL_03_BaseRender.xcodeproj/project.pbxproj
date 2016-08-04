@@ -764,6 +764,7 @@
 				BB16A4F11D2E2E9C009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5011D2E41FE009710F8 /* Build configuration list for PBXNativeTarget "Scissor" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +773,7 @@
 				BB16A5031D2E41FE009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5111D2E45E7009710F8 /* Build configuration list for PBXNativeTarget "Blending" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +782,7 @@
 				BB16A5131D2E45E7009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB16A5211D2F8052009710F8 /* Build configuration list for PBXNativeTarget "Smoother" */ = {
 			isa = XCConfigurationList;
@@ -788,6 +791,7 @@
 				BB16A5231D2F8052009710F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBFD1EEF1D24FF4600E89BAA /* Build configuration list for PBXProject "OGL_03_BaseRender" */ = {
 			isa = XCConfigurationList;

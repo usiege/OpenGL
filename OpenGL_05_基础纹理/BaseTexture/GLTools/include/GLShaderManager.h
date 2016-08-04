@@ -87,7 +87,7 @@ struct SHADERLOOKUPETRY {
 
 
 class GLShaderManager
-{
+	{
 	public:
 		GLShaderManager(void);
 		~GLShaderManager(void);
@@ -120,7 +120,7 @@ class GLShaderManager
 		GLuint	uiStockShaders[GLT_SHADER_LAST];
 //		vector <SHADERLOOKUPETRY>	shaderTable;
 
-};
+	};
 
 
 #endif
