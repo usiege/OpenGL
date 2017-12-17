@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620B407B1F9CA443009967B1 /* GeoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 620B407A1F9CA443009967B1 /* GeoTest.cpp */; };
 		BB16A4EF1D2E2E9C009710F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A4EE1D2E2E9C009710F8 /* main.cpp */; };
-		BB16A4F41D2E2EAD009710F8 /* GeoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */; };
 		BB16A4F61D2E30A3009710F8 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1B1D2501C600E89BAA /* libGLTools.a */; };
 		BB16A4F71D2E30A9009710F8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1F1D25031C00E89BAA /* GLUT.framework */; };
 		BB16A4F81D2E30AD009710F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFD1F1D1D25031600E89BAA /* OpenGL.framework */; };
@@ -91,9 +91,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		620B407A1F9CA443009967B1 /* GeoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeoTest.cpp; sourceTree = "<group>"; };
 		BB16A4EC1D2E2E9C009710F8 /* GeoTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB16A4EE1D2E2E9C009710F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTest.cpp; path = ../../../../../Documents/Books/OpenGL/OpenGL_E/Src/Chapter03/GeoTest/GeoTest.cpp; sourceTree = "<group>"; };
 		BB16A4F51D2E3033009710F8 /* GeoTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoTest.h; sourceTree = "<group>"; };
 		BB16A4FD1D2E41FE009710F8 /* Scissor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scissor; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB16A5071D2E4237009710F8 /* Scissor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scissor.cpp; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 		BB16A4ED1D2E2E9C009710F8 /* GeoTest */ = {
 			isa = PBXGroup;
 			children = (
-				BB16A4F31D2E2EAD009710F8 /* GeoTest.cpp */,
+				620B407A1F9CA443009967B1 /* GeoTest.cpp */,
 				BB16A4F51D2E3033009710F8 /* GeoTest.h */,
 				BB16A4EE1D2E2E9C009710F8 /* main.cpp */,
 			);
@@ -477,7 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB16A4EF1D2E2E9C009710F8 /* main.cpp in Sources */,
-				BB16A4F41D2E2EAD009710F8 /* GeoTest.cpp in Sources */,
+				620B407B1F9CA443009967B1 /* GeoTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
