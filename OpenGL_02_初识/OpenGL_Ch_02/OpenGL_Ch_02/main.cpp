@@ -11,6 +11,7 @@
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include <GLUT/glut.h>
+#include <math.h>
 
 using namespace std;
 
@@ -72,3 +73,47 @@ void display()
     glEnd();
     glFlush();
 }
+
+//openGL 显示表
+void showList()
+{
+    const double TWO_PI = 6.2831853;
+    
+    GLuint regHex;
+    
+    GLdouble theta;
+    GLint x, y, k;
+    
+    //Get an identifier for the display list.
+    regHex = glGenLists(1);
+    
+    glNewList(regHex, GL_COMPILE);
+    glBegin(GL_POLYGON);
+    for (k = 0; k < 6; k++) {
+        theta = TWO_PI * k / 6.0;
+        x = 200 + 150 * cos(theta);
+        y = 200 + 150 * sin(theta);
+        glVertex2i(x, y);
+    }
+    glEnd();
+    glEndList();
+    
+    glCallList(regHex);
+//    glCallLists(GLsizei n, GLenum type, const GLvoid *lists)
+    //删除显示表
+//    glDeleteLists(startID, nLists)
+}
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
