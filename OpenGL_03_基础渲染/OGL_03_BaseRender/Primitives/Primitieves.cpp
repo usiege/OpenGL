@@ -25,7 +25,7 @@ GLBatch				triangleBatch;
 GLBatch             triangleStripBatch;
 GLBatch             triangleFanBatch;
 
-GLGeometryTransform	transformPipeline;
+ GLGeometryTransform	transformPipeline;
 M3DMatrix44f		shadowMatrix;
 
 

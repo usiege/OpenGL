@@ -92,6 +92,8 @@
 
 /* Begin PBXFileReference section */
 		620B407A1F9CA443009967B1 /* GeoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeoTest.cpp; sourceTree = "<group>"; };
+		62F11CE42081065400112892 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = SOURCE_ROOT; };
+		62F11CE52081065400112892 /* SceneKit Particle System.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "SceneKit Particle System.scnp"; sourceTree = SOURCE_ROOT; };
 		BB16A4EC1D2E2E9C009710F8 /* GeoTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB16A4EE1D2E2E9C009710F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BB16A4F51D2E3033009710F8 /* GeoTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoTest.h; sourceTree = "<group>"; };
@@ -225,6 +227,8 @@
 		BBFD1EEB1D24FF4600E89BAA = {
 			isa = PBXGroup;
 			children = (
+				62F11CE42081065400112892 /* spark.png */,
+				62F11CE52081065400112892 /* SceneKit Particle System.scnp */,
 				BBFD1EF61D24FF4600E89BAA /* OGL_03_BaseRender */,
 				BBFD1F2A1D25065000E89BAA /* Primitives */,
 				BB16A4ED1D2E2E9C009710F8 /* GeoTest */,
