@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62021295208C6E98000ACF78 /* ScreenPt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62021293208C6E98000ACF78 /* ScreenPt.cpp */; };
+		620212AB208E279B000ACF78 /* LineGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 620212A9208E279B000ACF78 /* LineGraph.cpp */; };
 		6228CEF32087A0260080A282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6228CEF22087A0260080A282 /* main.cpp */; };
 		6228CF182087A10C0080A282 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF172087A10C0080A282 /* OpenGL.framework */; };
 		6228CF1A2087A1140080A282 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF192087A1140080A282 /* GLUT.framework */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62021293208C6E98000ACF78 /* ScreenPt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScreenPt.cpp; sourceTree = "<group>"; };
+		62021294208C6E98000ACF78 /* ScreenPt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ScreenPt.hpp; sourceTree = "<group>"; };
+		620212A9208E279B000ACF78 /* LineGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LineGraph.cpp; sourceTree = "<group>"; };
+		620212AA208E279B000ACF78 /* LineGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LineGraph.hpp; sourceTree = "<group>"; };
 		6228CEEF2087A0260080A282 /* ComputerGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputerGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		6228CEF22087A0260080A282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6228CF172087A10C0080A282 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -65,6 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				6228CEF22087A0260080A282 /* main.cpp */,
+				62021293208C6E98000ACF78 /* ScreenPt.cpp */,
+				62021294208C6E98000ACF78 /* ScreenPt.hpp */,
+				620212A9208E279B000ACF78 /* LineGraph.cpp */,
+				620212AA208E279B000ACF78 /* LineGraph.hpp */,
 			);
 			path = ComputerGraphics;
 			sourceTree = "<group>";
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6228CEF32087A0260080A282 /* main.cpp in Sources */,
+				620212AB208E279B000ACF78 /* LineGraph.cpp in Sources */,
+				62021295208C6E98000ACF78 /* ScreenPt.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +262,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PE3PM2R7K;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Debug;
 		};
@@ -260,8 +273,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PE3PM2R7K;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Release;
 		};
