@@ -27,24 +27,40 @@ static void test() {
 extern GLint winWidth;
 extern GLint winHeight;
 
+
+void pointFunc() {
+    glColor3f(1.0, 0.0, 0.0);
+    glBegin(GL_POINTS);
+    glVertex2i(50, 100);
+    
+    glPointSize(2.0);
+    glColor3f(0.0, 1.0, 0.0);
+    glVertex2i(75, 150);
+    
+    glPointSize(3.0);
+    glColor3f(0.0, 0.0, 1.0);
+    glVertex2i(100, 200);
+    glEnd();
+    
+//    glFlush();
+}
+
 int main(int argc, char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowPosition(100, 100);
+    glutInitWindowPosition(200, 200);
     glutInitWindowSize(winWidth, winHeight);
     glutCreateWindow("Line Graph");
     
-    initLineGraph();
+//    init();
     
-    glutDisplayFunc(lineGraph);
-    glutReshapeFunc(lineWinReshapeFun);
+    glutDisplayFunc(pointFunc);
+    glutReshapeFunc(winReshapeFun);
     
     glutMainLoop();
-    
-    test();
     
     return 0;
 }

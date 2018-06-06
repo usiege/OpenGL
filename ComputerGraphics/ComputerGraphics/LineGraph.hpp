@@ -13,8 +13,15 @@
 
 #include <GLUT/glut.h>
 
-void initLineGraph();
+namespace LineGraph {
+    void init();
+    void _init();
+}
+
+void winReshapeFun(GLint newWinth, GLint newHeight);
+
 void lineGraph();
-void lineWinReshapeFun(GLint newWinth, GLint newHeight);
+//直方图
+void barChart();
 
 #endif /* LineGraph_hpp */

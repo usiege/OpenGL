@@ -12,6 +12,8 @@
 
 const double TWO_PI = 6.2831853;
 
+static GLsizei winWidth = 600;
+
 GLsizei SwinWidth = 400, SwinHeight = 400;
 GLuint regHex;
 
@@ -71,7 +73,7 @@ void regHexagon(void)
     glFlush();
 }
 
-void winReshapeFun(int newWidth, int newHeight)
+void winReshapeFun2(int newWidth, int newHeight)
 {
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();

@@ -13,6 +13,6 @@
 
 void initScreenPt(void);
 void regHexagon(void);
-void winReshapeFun(int newWidth, int newHeight);
+void winReshapeFun2(int newWidth, int newHeight);
 
 #endif /* ScreenPt_hpp */

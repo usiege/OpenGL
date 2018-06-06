@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		62021295208C6E98000ACF78 /* ScreenPt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62021293208C6E98000ACF78 /* ScreenPt.cpp */; };
 		620212AB208E279B000ACF78 /* LineGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 620212A9208E279B000ACF78 /* LineGraph.cpp */; };
+		620212AE208F7866000ACF78 /* PieChart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 620212AC208F7866000ACF78 /* PieChart.cpp */; };
 		6228CEF32087A0260080A282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6228CEF22087A0260080A282 /* main.cpp */; };
 		6228CF182087A10C0080A282 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF172087A10C0080A282 /* OpenGL.framework */; };
 		6228CF1A2087A1140080A282 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF192087A1140080A282 /* GLUT.framework */; };
@@ -31,6 +32,8 @@
 		62021294208C6E98000ACF78 /* ScreenPt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ScreenPt.hpp; sourceTree = "<group>"; };
 		620212A9208E279B000ACF78 /* LineGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LineGraph.cpp; sourceTree = "<group>"; };
 		620212AA208E279B000ACF78 /* LineGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LineGraph.hpp; sourceTree = "<group>"; };
+		620212AC208F7866000ACF78 /* PieChart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PieChart.cpp; sourceTree = "<group>"; };
+		620212AD208F7866000ACF78 /* PieChart.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PieChart.hpp; sourceTree = "<group>"; };
 		6228CEEF2087A0260080A282 /* ComputerGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputerGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		6228CEF22087A0260080A282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6228CF172087A10C0080A282 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -75,6 +78,8 @@
 				62021294208C6E98000ACF78 /* ScreenPt.hpp */,
 				620212A9208E279B000ACF78 /* LineGraph.cpp */,
 				620212AA208E279B000ACF78 /* LineGraph.hpp */,
+				620212AC208F7866000ACF78 /* PieChart.cpp */,
+				620212AD208F7866000ACF78 /* PieChart.hpp */,
 			);
 			path = ComputerGraphics;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6228CEF32087A0260080A282 /* main.cpp in Sources */,
+				620212AE208F7866000ACF78 /* PieChart.cpp in Sources */,
 				620212AB208E279B000ACF78 /* LineGraph.cpp in Sources */,
 				62021295208C6E98000ACF78 /* ScreenPt.cpp in Sources */,
 			);
