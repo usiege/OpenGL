@@ -1,1 +1,11 @@
-本例包含OpenGL蓝宝书实例，xcode7可运行。
+# OpenGL
+
+<p align='center'>
+<img src='bg.png'>
+</p>
+
+## opengl 学习笔记
+
+
+* 2018-06-13
+添加了opengl学习笔记；
