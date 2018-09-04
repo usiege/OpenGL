@@ -14,7 +14,9 @@
 		6228CF342087A19F0080A282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6228CF322087A19F0080A282 /* LaunchScreen.storyboard */; };
 		6228CF372087A19F0080A282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6228CF362087A19F0080A282 /* main.m */; };
 		6228CF3F2087A2390080A282 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF3E2087A2390080A282 /* OpenGLES.framework */; };
-		6228CF412087A2440080A282 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF402087A2440080A282 /* GLKit.framework */; };
+		6228CF412087A2440080A282 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6228CF402087A2440080A282 /* GLKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		628ABB5520C97AB10075381D /* ESTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628ABB5420C97AB10075381D /* ESTesting.swift */; };
+		628ABB5720C97D240075381D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 628ABB5620C97D240075381D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +28,12 @@
 		6228CF2E2087A19F0080A282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6228CF302087A19F0080A282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6228CF332087A19F0080A282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6228CF352087A19F0080A282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6228CF362087A19F0080A282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6228CF3E2087A2390080A282 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		6228CF402087A2440080A282 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		628ABB5320C97AB00075381D /* GLES-Learning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Learning-Bridging-Header.h"; sourceTree = "<group>"; };
+		628ABB5420C97AB10075381D /* ESTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTesting.swift; sourceTree = "<group>"; };
+		628ABB5620C97D240075381D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +74,10 @@
 				6228CF282087A19F0080A282 /* AppDelegate.m */,
 				6228CF2A2087A19F0080A282 /* ViewController.h */,
 				6228CF2B2087A19F0080A282 /* ViewController.m */,
+				628ABB5420C97AB10075381D /* ESTesting.swift */,
 				6228CF2D2087A19F0080A282 /* Main.storyboard */,
 				6228CF362087A19F0080A282 /* main.m */,
+				628ABB5320C97AB00075381D /* GLES-Learning-Bridging-Header.h */,
 			);
 			path = "GLES-Learning";
 			sourceTree = "<group>";
@@ -88,9 +94,9 @@
 		6228CF442087A2800080A282 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				628ABB5620C97D240075381D /* Info.plist */,
 				6228CF302087A19F0080A282 /* Assets.xcassets */,
 				6228CF322087A19F0080A282 /* LaunchScreen.storyboard */,
-				6228CF352087A19F0080A282 /* Info.plist */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				TargetAttributes = {
 					6228CF232087A19F0080A282 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628ABB5720C97D240075381D /* Info.plist in Resources */,
 				6228CF342087A19F0080A282 /* LaunchScreen.storyboard in Resources */,
 				6228CF312087A19F0080A282 /* Assets.xcassets in Resources */,
 				6228CF2F2087A19F0080A282 /* Main.storyboard in Resources */,
@@ -166,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628ABB5520C97AB10075381D /* ESTesting.swift in Sources */,
 				6228CF2C2087A19F0080A282 /* ViewController.m in Sources */,
 				6228CF372087A19F0080A282 /* main.m in Sources */,
 				6228CF292087A19F0080A282 /* AppDelegate.m in Sources */,
@@ -302,14 +311,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 472P9J8R6U;
-				INFOPLIST_FILE = "GLES-Learning/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.usiege.GLES-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GLES-Learning/GLES-Learning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -318,14 +331,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 472P9J8R6U;
-				INFOPLIST_FILE = "GLES-Learning/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.usiege.GLES-Learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GLES-Learning/GLES-Learning-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

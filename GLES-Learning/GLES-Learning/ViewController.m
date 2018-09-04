@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <GLKit/GLKit.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+#ifndef __APPLE__
+    EEE eee;
+//    EAGLContext
+//    GLKView
+    
+#endif
+    
+    
 }
 
 
