@@ -8,8 +8,8 @@
 
 #include "LineGraph.hpp"
 
-GLsizei winWidth = 600;
-GLsizei winHeight = 500;
+GLsizei winWidth = 1024;
+GLsizei winHeight = 768;
 
 GLint xRaster = 25;
 GLint yRaster = 150; // raster 光栅
@@ -26,9 +26,9 @@ void LineGraph::init() {
 
 void LineGraph::_init()
 {
-    glClearColor(1.0, 1.0, 1.0, 1.0);
+    glClearColor(0.0, 1.0, 0.0, 1.0);
     glMatrixMode(GL_PROJECTION);
-    gluOrtho2D(0.0, 600.0, 0.0, 500.0);     //指定二维世界坐标系
+    gluOrtho2D(0.0, winWidth, 0.0, winHeight);     //指定二维世界坐标系
 }
 
 void winReshapeFun(GLint newWinth, GLint newHeight)

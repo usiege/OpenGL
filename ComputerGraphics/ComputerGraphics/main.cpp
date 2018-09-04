@@ -9,11 +9,12 @@
 #include <iostream>
 
 #include <GLUT/glut.h>
+#include <OpenGL/gl.h>
 #include <math.h>
 
-static void test() {
-    
-}
+//static void test() {
+//
+//}
 
 #include "ScreenPt.hpp"
 /*
@@ -45,24 +46,59 @@ void pointFunc() {
 //    glFlush();
 }
 
+void openglFunc();
 int main(int argc, char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    
+
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowPosition(200, 200);
+    glutInitWindowPosition(1024, 768);
     glutInitWindowSize(winWidth, winHeight);
     glutCreateWindow("Line Graph");
     
-//    init();
+    glutDisplayFunc(openglFunc);
+//    glutReshapeFunc(winReshapeFun);
     
-    glutDisplayFunc(pointFunc);
-    glutReshapeFunc(winReshapeFun);
+    // 缓存清空后的颜色值
+    glClearColor(0.5f, 0.5f, 0.5f, 0.0f);
     
     glutMainLoop();
     
     return 0;
+}
+bool trangle = true;
+void openglFunc() {
+    // 清空颜色缓存
+    glClear(GL_COLOR_BUFFER_BIT);
+    // 交换前后缓存
+    glutSwapBuffers();
+    
+    if(trangle) {
+        //创建一个顶点数组对象
+//        GLuint VertexArrayID;
+//        glGenVertexArraysAPPLE(1, &VertexArrayID);
+//        glBindVertexArrayAPPLE(VertexArrayID);
+
+        static const GLfloat g_vertext_buffer_data[] = {
+            -1.0f, -1.0f, 0.0f,
+            1.0f, -1.0f, 0.0f,
+            0.0f,1.0f, 0.0f,
+        };
+        
+        GLuint vertexbuffer;
+        glGenBuffers(1, &vertexbuffer);
+        glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertext_buffer_data), g_vertext_buffer_data, GL_STATIC_DRAW);
+        
+        glEnableVertexAttribArray(0);
+        glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
+        
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDisableVertexAttribArray(0);
+        
+    }
 }
 
 
