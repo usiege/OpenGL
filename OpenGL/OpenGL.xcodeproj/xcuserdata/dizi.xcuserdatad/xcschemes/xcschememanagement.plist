@@ -7,16 +7,26 @@
 		<key>OpenGL-01-Hello.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<key>OpenGL-02-GLAD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>TF.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>62AB96BE24C21EE80026E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>62D0A88324BF46BB00DD1507</key>
 		<dict>
 			<key>primary</key>
