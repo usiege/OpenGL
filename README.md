@@ -7,6 +7,11 @@
 
 ## 2020
 
+### 2020-07-18
+
+- [OpenGL-01-Hello](./OpenGL/OpenGL-01-Hello)
+- [OpenGL-02-GLAD](./OpenGL/OpenGL-02-GLAD)
+
 ### 2020-07-16
 
 - 添加了新的OpenGL工程[OpenGL](./OpenGL)
