@@ -32,7 +32,8 @@ int main()
         glfwTerminate();
         return -1;
     }
-    
+    unsigned int VBO;
+    glGenBuffers(1, &VBO);
     
     glfwMakeContextCurrent(window);
     // Set this to true so GLEW knows to use a modern approach to retrieving function pointers and extensions
