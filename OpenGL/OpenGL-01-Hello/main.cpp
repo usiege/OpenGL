@@ -32,6 +32,11 @@ int main()
         glfwTerminate();
         return -1;
     }
+    
+    //翻车现场，（不知是什么时候乱入的代码）。。。
+    unsigned int VBO;
+    glGenBuffers(1, &VBO);
+    
     glfwMakeContextCurrent(window);
     // Set this to true so GLEW knows to use a modern approach to retrieving function pointers and extensions
     glewExperimental = GL_TRUE;
@@ -46,7 +51,8 @@ int main()
     int width, height;
     glfwGetFramebufferSize(window, &width, &height);
     glViewport(0, 0, width, height);
-
+    
+    
     // Game loop
     while (!glfwWindowShouldClose(window))
     {

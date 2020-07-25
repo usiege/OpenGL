@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AB96AF24C1EE840026E00C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67224B8AEB20064C982 /* OpenGL.framework */; };
+		62AB96B724C1EEA30026E00C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62AB96B624C1EEA30026E00C /* main.cpp */; };
 		62D0A88724BF46BB00DD1507 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62D0A88624BF46BB00DD1507 /* main.cpp */; };
 		62D0A88D24BF474400DD1507 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D0A88C24BF474400DD1507 /* libGLEW.a */; };
 		62D0A88E24BF476200DD1507 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC9A724BCAC0D0064C982 /* libglfw.3.3.dylib */; };
 		62D0A88F24BF477B00DD1507 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67224B8AEB20064C982 /* OpenGL.framework */; };
-		62EDC66B24B8AE520064C982 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC66A24B8AE520064C982 /* main.cpp */; };
-		62EDC67324B8AEB20064C982 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67224B8AEB20064C982 /* OpenGL.framework */; };
-		62EDC67724B8AED20064C982 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67624B8AED20064C982 /* libGLEW.2.1.0.dylib */; };
 		62EDC68524BB84A00064C982 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC68424BB84A00064C982 /* main.cpp */; };
-		62EDC69324BB84FA0064C982 /* gl3w.c in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC69124BB84CC0064C982 /* gl3w.c */; };
 		62EDC9A624BCAADC0064C982 /* gl3w.c in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC69124BB84CC0064C982 /* gl3w.c */; };
 		62EDC9A824BCAC0D0064C982 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC9A724BCAC0D0064C982 /* libglfw.3.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		62D0A88224BF46BB00DD1507 /* CopyFiles */ = {
+		62AB96B224C1EEA30026E00C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -30,14 +28,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		62EDC66524B8AE510064C982 /* Copy Files */ = {
+		62D0A88224BF46BB00DD1507 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
-			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		62EDC68024BB84A00064C982 /* CopyFiles */ = {
@@ -52,11 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62AB96B424C1EEA30026E00C /* GLAD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLAD; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB96B624C1EEA30026E00C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62D0A88424BF46BB00DD1507 /* TF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TF; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D0A88624BF46BB00DD1507 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62D0A88C24BF474400DD1507 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.a; sourceTree = "<group>"; };
-		62EDC66724B8AE510064C982 /* TFOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TFOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		62EDC66A24B8AE520064C982 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62EDC67224B8AEB20064C982 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		62EDC67424B8AEB80064C982 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		62EDC67624B8AED20064C982 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
@@ -70,6 +67,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62AB96B124C1EEA30026E00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62D0A88124BF46BB00DD1507 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,26 +84,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62EDC66424B8AE510064C982 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62EDC67724B8AED20064C982 /* libGLEW.2.1.0.dylib in Frameworks */,
-				62EDC67324B8AEB20064C982 /* OpenGL.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62EDC67F24BB84A00064C982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62EDC9A824BCAC0D0064C982 /* libglfw.3.3.dylib in Frameworks */,
+				62AB96AF24C1EE840026E00C /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62AB96B524C1EEA30026E00C /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				62AB96B624C1EEA30026E00C /* main.cpp */,
+			);
+			path = GLAD;
+			sourceTree = "<group>";
+		};
 		62D0A88524BF46BB00DD1507 /* TF */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,9 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				62EDC68924BB84CC0064C982 /* gl3w */,
-				62EDC66924B8AE510064C982 /* TFOpenGL */,
-				62EDC68324BB84A00064C982 /* TFQN */,
 				62D0A88524BF46BB00DD1507 /* TF */,
+				62EDC68324BB84A00064C982 /* TFQN */,
+				62AB96B524C1EEA30026E00C /* GLAD */,
 				62EDC66824B8AE510064C982 /* Products */,
 				62EDC67124B8AEB20064C982 /* Frameworks */,
 			);
@@ -123,19 +127,11 @@
 		62EDC66824B8AE510064C982 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62EDC66724B8AE510064C982 /* TFOpenGL */,
 				62EDC68224BB84A00064C982 /* TFQN */,
 				62D0A88424BF46BB00DD1507 /* TF */,
+				62AB96B424C1EEA30026E00C /* GLAD */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		62EDC66924B8AE510064C982 /* TFOpenGL */ = {
-			isa = PBXGroup;
-			children = (
-				62EDC66A24B8AE520064C982 /* main.cpp */,
-			);
-			path = TFOpenGL;
 			sourceTree = "<group>";
 		};
 		62EDC67124B8AEB20064C982 /* Frameworks */ = {
@@ -204,6 +200,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		62AB96B324C1EEA30026E00C /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AB96B824C1EEA30026E00C /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				62AB96B024C1EEA30026E00C /* Sources */,
+				62AB96B124C1EEA30026E00C /* Frameworks */,
+				62AB96B224C1EEA30026E00C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 62AB96B424C1EEA30026E00C /* GLAD */;
+			productType = "com.apple.product-type.tool";
+		};
 		62D0A88324BF46BB00DD1507 /* TF */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62D0A88A24BF46BB00DD1507 /* Build configuration list for PBXNativeTarget "TF" */;
@@ -219,23 +232,6 @@
 			name = TF;
 			productName = TF;
 			productReference = 62D0A88424BF46BB00DD1507 /* TF */;
-			productType = "com.apple.product-type.tool";
-		};
-		62EDC66624B8AE510064C982 /* TFOpenGL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62EDC66E24B8AE520064C982 /* Build configuration list for PBXNativeTarget "TFOpenGL" */;
-			buildPhases = (
-				62EDC66324B8AE510064C982 /* Sources */,
-				62EDC66424B8AE510064C982 /* Frameworks */,
-				62EDC66524B8AE510064C982 /* Copy Files */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TFOpenGL;
-			productName = TFOpenGL;
-			productReference = 62EDC66724B8AE510064C982 /* TFOpenGL */;
 			productType = "com.apple.product-type.tool";
 		};
 		62EDC68124BB84A00064C982 /* TFQN */ = {
@@ -264,10 +260,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = charles;
 				TargetAttributes = {
-					62D0A88324BF46BB00DD1507 = {
+					62AB96B324C1EEA30026E00C = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					62EDC66624B8AE510064C982 = {
+					62D0A88324BF46BB00DD1507 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					62EDC68124BB84A00064C982 = {
@@ -288,28 +284,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62EDC66624B8AE510064C982 /* TFOpenGL */,
 				62EDC68124BB84A00064C982 /* TFQN */,
 				62D0A88324BF46BB00DD1507 /* TF */,
+				62AB96B324C1EEA30026E00C /* GLAD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		62AB96B024C1EEA30026E00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB96B724C1EEA30026E00C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62D0A88024BF46BB00DD1507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62D0A88724BF46BB00DD1507 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62EDC66324B8AE510064C982 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62EDC69324BB84FA0064C982 /* gl3w.c in Sources */,
-				62EDC66B24B8AE520064C982 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +320,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		62AB96B924C1EEA30026E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62AB96BA24C1EEA30026E00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		62D0A88824BF46BB00DD1507 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,592 +481,6 @@
 			};
 			name = Release;
 		};
-		62EDC66F24B8AE520064C982 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"#include",
-					"<stdio.h>\n#include",
-					"<stdlib.h>\n#include",
-					"<GL/gl3w.h>\n#include",
-					"<GLFW/glfw3.h>\n\nstatic",
-					int,
-					width,
-					"=",
-					"600,",
-					height,
-					"=",
-					"600;\n\nstatic",
-					float,
-					"randf()\n{\n",
-					return,
-					"(float)",
-					"rand()",
-					/,
-					"((float)",
-					RAND_MAX,
-					"+",
-					"1);\n}\n\nstatic",
-					void,
-					"display(GLFWwindow",
-					"*window)\n{\n",
-					"glClearColor(randf(),",
-					"randf(),",
-					"randf(),",
-					"1.0f);\n",
-					"glClear(GL_COLOR_BUFFER_BIT",
-					"|",
-					"GL_DEPTH_BUFFER_BIT);\n",
-					"glfwSwapBuffers(window);\n}\n\nstatic",
-					void,
-					"reshape(GLFWwindow",
-					"*window,",
-					int,
-					"w,",
-					int,
-					"h)
-{
-",
-					width,
-					"=",
-					w,
-					">",
-					1,
-					"?",
-					w,
-					":",
-					"1;
-",
-					height,
-					"=",
-					h,
-					">",
-					1,
-					"?",
-					h,
-					":",
-					"1;
-",
-					"glViewport(0,",
-					"0,",
-					"width,",
-					"height);\n",
-					"glClearDepth(1.0);\n",
-					"glClearColor(0.0f,",
-					"0.0f,",
-					"0.0f,",
-					"0.0f);\n",
-					"glEnable(GL_DEPTH_TEST);\n}\n\nint",
-					"main(int",
-					"argc,",
-					char,
-					"**argv)\n{\n",
-					GLFWwindow,
-					"*window;\n\n",
-					"glfwInit();\n\n",
-					"glfwWindowHint(GLFW_OPENGL_PROFILE,",
-					"GLFW_OPENGL_CORE_PROFILE);\n",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,",
-					"3);
-",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,",
-					"2);
-",
-					"glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT,",
-					"GL_TRUE);\n",
-					window,
-					"=",
-					"glfwCreateWindow(width,",
-					"height,",
-					"\"cookie\",",
-					"NULL,",
-					"NULL);\n\n",
-					"glfwSetFramebufferSizeCallback(window,",
-					"reshape);\n",
-					"glfwSetWindowRefreshCallback(window,",
-					"display);\n\n",
-					"glfwMakeContextCurrent(window);\n\n",
-					if,
-					"(gl3wInit())",
-					"{
-",
-					"fprintf(stderr,",
-					"\"failed to initialize OpenGL\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					if,
-					"(!gl3wIsSupported(3,",
-					"2))",
-					"{
-",
-					"fprintf(stderr,",
-					"\"OpenGL 3.2 not supported\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					"printf(\"OpenGL %s, GLSL %s\\n\",",
-					"glGetString(GL_VERSION),\n",
-					"glGetString(GL_SHADING_LANGUAGE_VERSION));\n\n",
-					while,
-					"(!glfwWindowShouldClose(window))",
-					"{
-",
-					"display(window);\n",
-					"glfwPollEvents();\n",
-					"}
-
-",
-					"glfwTerminate();\n",
-					return,
-					"0;\n}\n#include",
-					"<stdio.h>\n#include",
-					"<stdlib.h>\n#include",
-					"<GL/gl3w.h>\n#include",
-					"<GLFW/glfw3.h>\n\nstatic",
-					int,
-					width,
-					"=",
-					"600,",
-					height,
-					"=",
-					"600;\n\nstatic",
-					float,
-					"randf()\n{\n",
-					return,
-					"(float)",
-					"rand()",
-					/,
-					"((float)",
-					RAND_MAX,
-					"+",
-					"1);\n}\n\nstatic",
-					void,
-					"display(GLFWwindow",
-					"*window)\n{\n",
-					"glClearColor(randf(),",
-					"randf(),",
-					"randf(),",
-					"1.0f);\n",
-					"glClear(GL_COLOR_BUFFER_BIT",
-					"|",
-					"GL_DEPTH_BUFFER_BIT);\n",
-					"glfwSwapBuffers(window);\n}\n\nstatic",
-					void,
-					"reshape(GLFWwindow",
-					"*window,",
-					int,
-					"w,",
-					int,
-					"h)
-{
-",
-					width,
-					"=",
-					w,
-					">",
-					1,
-					"?",
-					w,
-					":",
-					"1;
-",
-					height,
-					"=",
-					h,
-					">",
-					1,
-					"?",
-					h,
-					":",
-					"1;
-",
-					"glViewport(0,",
-					"0,",
-					"width,",
-					"height);\n",
-					"glClearDepth(1.0);\n",
-					"glClearColor(0.0f,",
-					"0.0f,",
-					"0.0f,",
-					"0.0f);\n",
-					"glEnable(GL_DEPTH_TEST);\n}\n\nint",
-					"main(int",
-					"argc,",
-					char,
-					"**argv)\n{\n",
-					GLFWwindow,
-					"*window;\n\n",
-					"glfwInit();\n\n",
-					"glfwWindowHint(GLFW_OPENGL_PROFILE,",
-					"GLFW_OPENGL_CORE_PROFILE);\n",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,",
-					"3);
-",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,",
-					"2);
-",
-					"glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT,",
-					"GL_TRUE);\n",
-					window,
-					"=",
-					"glfwCreateWindow(width,",
-					"height,",
-					"\"cookie\",",
-					"NULL,",
-					"NULL);\n\n",
-					"glfwSetFramebufferSizeCallback(window,",
-					"reshape);\n",
-					"glfwSetWindowRefreshCallback(window,",
-					"display);\n\n",
-					"glfwMakeContextCurrent(window);\n\n",
-					if,
-					"(gl3wInit())",
-					"{
-",
-					"fprintf(stderr,",
-					"\"failed to initialize OpenGL\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					if,
-					"(!gl3wIsSupported(3,",
-					"2))",
-					"{
-",
-					"fprintf(stderr,",
-					"\"OpenGL 3.2 not supported\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					"printf(\"OpenGL %s, GLSL %s\\n\",",
-					"glGetString(GL_VERSION),\n",
-					"glGetString(GL_SHADING_LANGUAGE_VERSION));\n\n",
-					while,
-					"(!glfwWindowShouldClose(window))",
-					"{
-",
-					"display(window);\n",
-					"glfwPollEvents();\n",
-					"}
-
-",
-					"glfwTerminate();\n",
-					return,
-					"0;
-}
-",
-				);
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Debug;
-		};
-		62EDC67024B8AE520064C982 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"#include",
-					"<stdio.h>\n#include",
-					"<stdlib.h>\n#include",
-					"<GL/gl3w.h>\n#include",
-					"<GLFW/glfw3.h>\n\nstatic",
-					int,
-					width,
-					"=",
-					"600,",
-					height,
-					"=",
-					"600;\n\nstatic",
-					float,
-					"randf()\n{\n",
-					return,
-					"(float)",
-					"rand()",
-					/,
-					"((float)",
-					RAND_MAX,
-					"+",
-					"1);\n}\n\nstatic",
-					void,
-					"display(GLFWwindow",
-					"*window)\n{\n",
-					"glClearColor(randf(),",
-					"randf(),",
-					"randf(),",
-					"1.0f);\n",
-					"glClear(GL_COLOR_BUFFER_BIT",
-					"|",
-					"GL_DEPTH_BUFFER_BIT);\n",
-					"glfwSwapBuffers(window);\n}\n\nstatic",
-					void,
-					"reshape(GLFWwindow",
-					"*window,",
-					int,
-					"w,",
-					int,
-					"h)
-{
-",
-					width,
-					"=",
-					w,
-					">",
-					1,
-					"?",
-					w,
-					":",
-					"1;
-",
-					height,
-					"=",
-					h,
-					">",
-					1,
-					"?",
-					h,
-					":",
-					"1;
-",
-					"glViewport(0,",
-					"0,",
-					"width,",
-					"height);\n",
-					"glClearDepth(1.0);\n",
-					"glClearColor(0.0f,",
-					"0.0f,",
-					"0.0f,",
-					"0.0f);\n",
-					"glEnable(GL_DEPTH_TEST);\n}\n\nint",
-					"main(int",
-					"argc,",
-					char,
-					"**argv)\n{\n",
-					GLFWwindow,
-					"*window;\n\n",
-					"glfwInit();\n\n",
-					"glfwWindowHint(GLFW_OPENGL_PROFILE,",
-					"GLFW_OPENGL_CORE_PROFILE);\n",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,",
-					"3);
-",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,",
-					"2);
-",
-					"glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT,",
-					"GL_TRUE);\n",
-					window,
-					"=",
-					"glfwCreateWindow(width,",
-					"height,",
-					"\"cookie\",",
-					"NULL,",
-					"NULL);\n\n",
-					"glfwSetFramebufferSizeCallback(window,",
-					"reshape);\n",
-					"glfwSetWindowRefreshCallback(window,",
-					"display);\n\n",
-					"glfwMakeContextCurrent(window);\n\n",
-					if,
-					"(gl3wInit())",
-					"{
-",
-					"fprintf(stderr,",
-					"\"failed to initialize OpenGL\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					if,
-					"(!gl3wIsSupported(3,",
-					"2))",
-					"{
-",
-					"fprintf(stderr,",
-					"\"OpenGL 3.2 not supported\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					"printf(\"OpenGL %s, GLSL %s\\n\",",
-					"glGetString(GL_VERSION),\n",
-					"glGetString(GL_SHADING_LANGUAGE_VERSION));\n\n",
-					while,
-					"(!glfwWindowShouldClose(window))",
-					"{
-",
-					"display(window);\n",
-					"glfwPollEvents();\n",
-					"}
-
-",
-					"glfwTerminate();\n",
-					return,
-					"0;\n}\n#include",
-					"<stdio.h>\n#include",
-					"<stdlib.h>\n#include",
-					"<GL/gl3w.h>\n#include",
-					"<GLFW/glfw3.h>\n\nstatic",
-					int,
-					width,
-					"=",
-					"600,",
-					height,
-					"=",
-					"600;\n\nstatic",
-					float,
-					"randf()\n{\n",
-					return,
-					"(float)",
-					"rand()",
-					/,
-					"((float)",
-					RAND_MAX,
-					"+",
-					"1);\n}\n\nstatic",
-					void,
-					"display(GLFWwindow",
-					"*window)\n{\n",
-					"glClearColor(randf(),",
-					"randf(),",
-					"randf(),",
-					"1.0f);\n",
-					"glClear(GL_COLOR_BUFFER_BIT",
-					"|",
-					"GL_DEPTH_BUFFER_BIT);\n",
-					"glfwSwapBuffers(window);\n}\n\nstatic",
-					void,
-					"reshape(GLFWwindow",
-					"*window,",
-					int,
-					"w,",
-					int,
-					"h)
-{
-",
-					width,
-					"=",
-					w,
-					">",
-					1,
-					"?",
-					w,
-					":",
-					"1;
-",
-					height,
-					"=",
-					h,
-					">",
-					1,
-					"?",
-					h,
-					":",
-					"1;
-",
-					"glViewport(0,",
-					"0,",
-					"width,",
-					"height);\n",
-					"glClearDepth(1.0);\n",
-					"glClearColor(0.0f,",
-					"0.0f,",
-					"0.0f,",
-					"0.0f);\n",
-					"glEnable(GL_DEPTH_TEST);\n}\n\nint",
-					"main(int",
-					"argc,",
-					char,
-					"**argv)\n{\n",
-					GLFWwindow,
-					"*window;\n\n",
-					"glfwInit();\n\n",
-					"glfwWindowHint(GLFW_OPENGL_PROFILE,",
-					"GLFW_OPENGL_CORE_PROFILE);\n",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,",
-					"3);
-",
-					"glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,",
-					"2);
-",
-					"glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT,",
-					"GL_TRUE);\n",
-					window,
-					"=",
-					"glfwCreateWindow(width,",
-					"height,",
-					"\"cookie\",",
-					"NULL,",
-					"NULL);\n\n",
-					"glfwSetFramebufferSizeCallback(window,",
-					"reshape);\n",
-					"glfwSetWindowRefreshCallback(window,",
-					"display);\n\n",
-					"glfwMakeContextCurrent(window);\n\n",
-					if,
-					"(gl3wInit())",
-					"{
-",
-					"fprintf(stderr,",
-					"\"failed to initialize OpenGL\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					if,
-					"(!gl3wIsSupported(3,",
-					"2))",
-					"{
-",
-					"fprintf(stderr,",
-					"\"OpenGL 3.2 not supported\\n\");\n",
-					return,
-					"-1;
-",
-					"}
-",
-					"printf(\"OpenGL %s, GLSL %s\\n\",",
-					"glGetString(GL_VERSION),\n",
-					"glGetString(GL_SHADING_LANGUAGE_VERSION));\n\n",
-					while,
-					"(!glfwWindowShouldClose(window))",
-					"{
-",
-					"display(window);\n",
-					"glfwPollEvents();\n",
-					"}
-
-",
-					"glfwTerminate();\n",
-					return,
-					"0;
-}
-",
-				);
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Release;
-		};
 		62EDC68724BB84A00064C982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1083,6 +508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		62AB96B824C1EEA30026E00C /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AB96B924C1EEA30026E00C /* Debug */,
+				62AB96BA24C1EEA30026E00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		62D0A88A24BF46BB00DD1507 /* Build configuration list for PBXNativeTarget "TF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1097,15 +531,6 @@
 			buildConfigurations = (
 				62EDC66C24B8AE520064C982 /* Debug */,
 				62EDC66D24B8AE520064C982 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62EDC66E24B8AE520064C982 /* Build configuration list for PBXNativeTarget "TFOpenGL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62EDC66F24B8AE520064C982 /* Debug */,
-				62EDC67024B8AE520064C982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
