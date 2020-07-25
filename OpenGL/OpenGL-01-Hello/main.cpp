@@ -32,6 +32,8 @@ int main()
         glfwTerminate();
         return -1;
     }
+    
+    //翻车现场，（不知是什么时候乱入的代码）。。。
     unsigned int VBO;
     glGenBuffers(1, &VBO);
     
