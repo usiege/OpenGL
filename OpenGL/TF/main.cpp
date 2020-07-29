@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include <OpenCL/OpenCL.h>
+
 // GLEW
 #define GLEW_STATIC //如果希望静态链接 必须包含该预处理宏
 #include <GL/glew.h>
