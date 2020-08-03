@@ -293,7 +293,7 @@ if (linkStatus == GL_FALSE) {
 
 ## 见下篇
 
-[下篇](https://github.com/usiege/OpenGL_LIB/tree/master/OpenGL/OpenGLES-06-FrameBuffer)
+[下篇](https://github.com/usiege/OpenGL_LIB/tree/master/OpenGL/OpenGLES-06-Texture)
 
   [1]: http://static.zybuluo.com/usiege/fqbp8pzeka7b32ohhh30mkay/001.png
   [2]: http://static.zybuluo.com/usiege/tclv736q675qyf0au6d3acql/001.png
