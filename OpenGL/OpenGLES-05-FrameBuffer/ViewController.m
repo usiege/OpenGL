@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TFGLView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) TFGLView* mView;
 
 @end
 
@@ -18,8 +21,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    NSLog(@"view controller");
+    self.mView = (TFGLView*)self.view;
     
 }
-
-
 @end

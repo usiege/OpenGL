@@ -24,10 +24,20 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>OpenGLES-05-Texture.xcscheme_^#shared#^_</key>
+		<key>OpenGLES-05-FrameBuffer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>OpenGLES-06-Texture.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>OpenGLES-07-Cube.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>TF.xcscheme_^#shared#^_</key>
 		<dict>
@@ -37,12 +47,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>626EC6FD24D6679B007C4051</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>62AB95E324C0E4A30026E00C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>62AB96BE24C21EE80026E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62AB96D124C376280026E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62AB96DF24CF0C4E0026E00C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62AB974524D1E86B0026E00C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

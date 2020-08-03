@@ -185,7 +185,6 @@ int main(int argc, const char * argv[]) {
             glEnableVertexAttribArray(uPos);
             
             //EBO
-            unsigned int EBO;
             glGenBuffers(1, &EBO);
             glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
             glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
@@ -241,7 +240,6 @@ int main(int argc, const char * argv[]) {
                 glUseProgram(shaderProgram);
                 glBindVertexArray(VAO);
                 glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-                glBindVertexArray(0);
             }
                 break;
                 
