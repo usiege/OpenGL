@@ -22,6 +22,13 @@
 
 @end
 
+typedef enum : NSUInteger {
+    FLAP_STRATEGY_EMPTY,
+
+} FLAP_STRATEGY;
+
+
+
 @implementation TFGLView
 
 
@@ -54,6 +61,10 @@
 }
 
 
+- (void)flapStatregy
+{
+    
+}
 
 - (void)drawTexture
 {
@@ -107,8 +118,9 @@
     [self setupTexture:@"texture"];
     
     //5
-    glUseProgram(program);
     glUniform1i(glGetUniformLocation(program, "colorMap"), 0);
+    
+    glUseProgram(program);
     glDrawArrays(GL_TRIANGLES, 0, 6);
     [self.myContext presentRenderbuffer:GL_RENDERBUFFER];
 }
