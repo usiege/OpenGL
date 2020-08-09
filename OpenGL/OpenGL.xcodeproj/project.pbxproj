@@ -157,6 +157,8 @@
 		626EC74724D87AAF007C4051 /* TFGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGLView.h; sourceTree = "<group>"; };
 		626EC74824D87AAF007C4051 /* TFGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGLView.m; sourceTree = "<group>"; };
 		626EC74924D87AAF007C4051 /* shaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		6299B34124DEE3D300F87793 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		6299B34224DEE3E200F87793 /* shader.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
 		62AB95E424C0E4A30026E00C /* OpenGL-01-Hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL-01-Hello"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AB95E624C0E4A30026E00C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62AB961224C100420026E00C /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSOIL.a; sourceTree = "<group>"; };
@@ -812,6 +814,8 @@
 			isa = PBXGroup;
 			children = (
 				62AB96E224CF0C4E0026E00C /* main.cpp */,
+				6299B34124DEE3D300F87793 /* shader.vs */,
+				6299B34224DEE3E200F87793 /* shader.frag */,
 			);
 			path = "OpenGL-04-Shader";
 			sourceTree = "<group>";
